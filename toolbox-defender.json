@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "url": "file://D:\scoop\apps\jetbrains-toolbox\current\apps\IntelliJ IDEA Ultimate\bin\defender-exclusions.ps1",
+  "bin": "defender-exclusions.ps1",
+  "description": "My PowerShell Script with D:\\code parameter",
+  "installer": {
+    "script": [
+      "powershell -ExecutionPolicy Bypass -File \"$dir\\defender-exclusions.ps1\" D:\\code"
+    ]
+  }
+}
